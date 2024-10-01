@@ -9,7 +9,20 @@
 </head>
 <body>
     <header>
-        <img class="header-image" src="img/dj.jpg" alt="Imagen principal" />
+        <img class="header-image" src="img/dj.png" alt="Imagen principal" />
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+          <li><a href="index.html" onclick="seleccionar()">Inicio</a></li>
+          <li><a href="#musica " target=" _blank" onclick="seleccionar()">Música</a></li>
+          <li><a href="#alimentacion" onclick="seleccionar()">Alimentación</a></li>
+          <li><a href="#tecnologia" onclick="seleccionar()">Tecnología</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
     </header>
     
 </body>
