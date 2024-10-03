@@ -30,16 +30,17 @@
   </head>
   <body>
     <header>
-      <img class="header-image" src="img/portada.png" alt="Imagen principal" />
+      <div class="logo-container">
+        <img class="logo" src="img/22.svg" alt="Logo de la empresa" />
+      </div>
+      <img class="header-image" src="img/caballo.png" alt="Imagen principal" />
       <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
       <nav class="nav" id="nav">
         <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
         <ul class="nav-list">
           <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
           <li>
-            <a href="musica.html" target="_blank" onclick="seleccionar()"
-              >Música</a
-            >
+            <a href="musica.html" target="_blank" onclick="seleccionar()">Música</a>
           </li>
           <li>
             <a href="#alimentacion" onclick="seleccionar()">Alimentación</a>
@@ -50,6 +51,7 @@
       <div class="nav-responsive" onclick="mostrarOcultarMenu()">
         <!-- <i class="fa-solid fa-bars"></i> -->
       </div>
+    </header>
     </header>
     <main>
       <!-- Contenido principal -->
@@ -119,6 +121,50 @@
               </li>
     
             </ul>
+          </div>
+        </section>
+        <section class="modern-section">
+          <div class="container">
+            <h2 class="section-title">Descubre lo Extraordinario</h2>
+            <p class="section-description">Explorando nuevas fronteras en diseño y tecnología</p>
+            <div class="feature-grid">
+              <div class="feature-item">
+                <i class="feature-icon" aria-hidden="true">🚀</i>
+                <h3>Innovación</h3>
+                <p>Impulsando el futuro con ideas revolucionarias</p>
+              </div>
+              <div class="feature-item">
+                <i class="feature-icon" aria-hidden="true">💡</i>
+                <h3>Creatividad</h3>
+                <p>Transformando visiones en realidades tangibles</p>
+              </div>
+              <div class="feature-item">
+                <i class="feature-icon" aria-hidden="true">🌿</i>
+                <h3>Sostenibilidad</h3>
+                <p>Creando soluciones responsables para un mañana mejor</p>
+              </div>
+            </div>
+            <a href="#" class="cta-button">Explora Más</a>
+          </div>
+        </section>
+        <section class="digital-marketing-section">
+          <div class="containera">
+            <div class="content-wrapper">
+              <div class="text-content">
+                <h2 class="section-title">Impulsa tu negocio con Marketing Digital</h2>
+                <p class="section-description">Descubre cómo nuestras estrategias de marketing digital pueden llevar tu empresa al siguiente nivel en el mundo online.</p>
+                <ul class="feature-list">
+                  <li>SEO y posicionamiento en buscadores</li>
+                  <li>Campañas de publicidad en redes sociales</li>
+                  <li>Email marketing personalizado</li>
+                  <li>Análisis de datos y optimización de conversiones</li>
+                </ul>
+               
+              </div>
+              <div class="image-content">
+                <img src="img/p6.jpg" alt="Estrategias de Marketing Digital" class="marketing-image">
+              </div>
+            </div>
           </div>
         </section>
       </div>
